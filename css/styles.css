@@ -1,0 +1,64 @@
+/* Шрифт */
+/* Шрифт */
+.list {
+  list-style: none;
+}
+.page {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Цвет */
+/* Цвет */
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-text-color: #2196f3;
+  --primary-backgroud-color: #f5f4fa;
+  --secondary-background-color: #e5e5e5;
+  --head-background-color: #2f303a;
+}
+
+.page {
+  background-color: var(--primary-backgroud-color);
+  color: var(--primary-text-color);
+}
+
+/* Лого */
+.logo {
+  color: var(--primary-text-color);
+}
+
+.logo-accent {
+  color: var(--accent-text-color);
+}
+
+/* Навигация */
+.site-nav,
+.link,
+.contacts {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-text-color);
+}
+
+/* Герой */
+.section-hero {
+  color: var(--primary-text-color);
+}
+
+.section-title {
+  color: var(--primary-text-color);
+}
+
+/* Кнопка */
+
+.button {
+  display: inline-block;
+  background-color: var(--accent-text-color);
+  color: var(--primary-backgroud-color);
+}
