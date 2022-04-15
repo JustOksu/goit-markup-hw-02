@@ -146,7 +146,7 @@ h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
@@ -229,5 +229,18 @@ font-style: normal;
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+}
+
+.contactsfot:hover,
+.contactsfot:focus {
+  color: var(--accent-text-color);
+
+.indexh2 {
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
 }
