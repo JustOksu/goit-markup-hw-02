@@ -226,6 +226,7 @@ font-style: normal;
 
 .section-title {
   color: var(--primary-text-color);
+  text-transform: uppercase;
 }
 
 .contactsfot {
