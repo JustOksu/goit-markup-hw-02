@@ -81,12 +81,13 @@
 }
 
 .section-title {
-  color: var(--primary-text-color)
+  color: var(--primary-text-color);
   font-weight: 700;
-font-size: 14px;
-line-height: 1.2;
+  font-size: 14px;
+  line-height: 1.2;
 /* text-align: center; */
-letter-spacing: 0.03em;0
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .hero-title {
@@ -222,11 +223,6 @@ line-height: 1.7;
 letter-spacing: 0.03em;
 color: var(--primary-backgroud-color);
 font-style: normal;
-}
-
-.section-title {
-  color: var(--primary-text-color);
-  text-transform: uppercase;
 }
 
 .contactsfot {
